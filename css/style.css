@@ -5,7 +5,6 @@
 @font-face {
     font-family: 'android';
     src: url('../font/idroid.otf') format('opentype') ;
-
 }
 
 * {
@@ -61,18 +60,20 @@ header p {
     padding-right: 10px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
-
 }
 
 nav {
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
     background-color: #29411e;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.678);
-
 }
 
 nav > a {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 15px;
     padding: 5px;
     color: #ffffff;
@@ -82,18 +83,13 @@ nav > a {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.507);
 }
 
-nav > a:hover {
-
-    border-radius: 6px;
-    background-color: #209753;
+nav > a:hover { 
+    background-color: #2d7a44;
     transition-duration: 0.5s;
-    font-size: 1.1em;
-    
-
+    cursor: pointer;
 }
 
 main {
-    
     padding: 20px;
     margin: auto;
     margin-bottom: 20px;
@@ -128,42 +124,42 @@ main p {
     text-indent: 30px;
     line-height: 1.7em;
 }
+
 main strong {
     color: rgb(13, 122, 22); 
-
 }
+
 main a {
     text-decoration: none;
-    
     color: #000000;
     background-color: #6fa573;
     padding: 1px 5px;
 }
+
 main a:hover {
     background-color: #72DE5F;
     text-decoration: underline;
 }
 
-main img{
+main img {
     width: 100%;
 }
 
-main img.pequena{
+main img.pequena {
     max-width: 300px;
     display: block;
     margin: auto;
 }
 
 div.video {
-
     position: relative;
     padding: 20px;
     margin: 0px -20px 30px -20px ;
     padding-bottom: 60%;
     background-color: var(--cor5);
 }
+
 div.video > iframe {
-    
     position: absolute;
     top: 5%;
     left: 5%;
@@ -172,18 +168,17 @@ div.video > iframe {
 }
 
 aside {
-    
     background-color: rgb(220, 220, 190);
     padding: 10px;
     border-radius: 10px;
 }
+
 aside > ul {
     list-style:  '\2714\00A0\00A0';
     list-style-position: inside;
-    columns: 2;
-    
-    
+    columns: 2; 
 }
+
 aside > h3 {
     background-color: var(--cor4);
     color: white;
@@ -192,7 +187,7 @@ aside > h3 {
     border-radius: 10px 10px 0px 0px;
 }
 
-footer{
+footer {
     font-family: var(--fonte-padrao);
     background-color: #0a3f10;
     color: white;
@@ -201,15 +196,15 @@ footer{
     padding: 5px;
     font-size: 1em;
 }
-footer > p > a{
+
+footer > p > a {
     color: #eff3ef;
     text-decoration: none;
+    
 }
 
 footer a:hover {
     color: #002efd;
     background-color: #ffffff;
-    text-decoration: underline;
-    
-    
+     
 }
