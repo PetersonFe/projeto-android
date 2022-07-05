@@ -66,6 +66,7 @@ header p {
 nav {
     display: flex;
     justify-content: center;
+    gap: 20px;
     height: 50px;
     background-color: #29411e;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.678);
