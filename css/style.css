@@ -210,10 +210,3 @@ footer a:hover {
     background-color: #ffffff;
      
 }
-
-@media screen and (max-width: 600px) {
-    nav > a{
-      display: none;
-    }
-
-}
